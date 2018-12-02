@@ -2,14 +2,12 @@
 	padding: 5vh 7.5vw 5vh 7.5vw;
 }
 .about-container-header{
-    font-size: 15vw;
+    font-size: 3.5em;
     font-weight: 900;
     line-height: 1;
     padding-bottom: 24px;
-    color: #20bf6b;
 }
 .about-container-description{
-	color: #242424;
 	text-align: justify;
 }
 .about-container-description span{

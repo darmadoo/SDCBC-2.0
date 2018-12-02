@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html" />
+    <meta http-equiv="Content-Type" content="text/html"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,15 +13,35 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
-    <script data-main="app" src="lib/require.js"></script>
-    <link rel="stylesheet" href="app/style/animation.css">
-    <link rel="stylesheet" href="app/components/main/style.css">
-    <link rel="stylesheet" href="app/components/landing-page/style.css">
-    <link rel="stylesheet" href="app/components/about/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/landing-page.css">
+    <link rel="stylesheet" href="styles/about.css">
   </head>
 
   <body>
-    <div id="main-container">
+   <div id="main-container">
+
+    <div data-aos="fade-in" class="landing-page-container blue">
+       <div class="landing-page-header">
+         <i class="landing-page-hb fas fa-bars dark"></i>
+         <div class="landing-page-logo"></div>
+       </div>
+
+      <div class="landing-page-content">
+         <div data-aos="zoom-in-up" class="landing-page-content-title">Are you home?</div>
+         <div data-aos="zoom-in-right" data-aos-delay="500" class="landing-page-content-description">and now these three remains: faith, hope and love. But the greatest of these is love.</div>
+         <div data-aos="zoom-in-left" data-aos-delay="750" class="landing-page-content-button">SERVICE TIMES</div>
+      </div>
+   </div>
+
+   <div class="about-container green">
+     <div data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" class="about-container-header">"To make disciples of all nations"</div>
+     <div data-aos="zoom-in" class="about-container-description dark">As a community, <span>San Diego City Blessing Church</span> is devoted to building an engaged, passionate, spiritually healthy community of people that makes up San Diego. We’re also devoted to engaging and impacting one another and others, believing that Jesus himself set an example of service and that we’ve been given the responsibility to follow it. As a community, we’re devoted to building an engaged, passionate, spiritually healthy community of people that makes up San Diego.</div>
+   </div>
+
+
       <!-- <div class="sk-cube-grid">
         <div class="sk-cube sk-cube1"></div>
         <div class="sk-cube sk-cube2"></div>
@@ -33,10 +53,9 @@
         <div class="sk-cube sk-cube8"></div>
         <div class="sk-cube sk-cube9"></div>
       </div> -->
-    
     </div>
-   
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="app.js"></script>
   </body>
 

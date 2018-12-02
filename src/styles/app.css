@@ -1,0 +1,50 @@
+/* Reset margin and paddings */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+#main-container{
+	display: flex;
+	height: 100%;
+	align-items: center;
+    flex-direction: column;
+}
+
+.red{
+	color: #eb3b5a;
+}
+.blue{
+	color: #45aaf2;
+}
+.green{
+	color: #20bf6b;
+}
+.yellow{
+	color: #fed330;
+}
+.dark{
+	color: #242424;
+}
+
+.bg-red{
+	bakground-color: #eb3b5a;
+}
+.bg-blue{
+	bakground-color: #45aaf2;
+}
+.bg-green{
+	bakground-color: #20bf6b;
+}
+.bg-yellow{
+	bakground-color: #fed330;
+}
+.bg-dark{
+	bakground-color: #242424;
+}
