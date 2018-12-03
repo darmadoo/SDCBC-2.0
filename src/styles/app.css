@@ -13,7 +13,7 @@ html, body {
 
 h1{
   font-size: 7vw;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 h2{
@@ -35,7 +35,7 @@ p{
 }
 
 .card{
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   width: 95vw;
   background-color: white;
   border-radius: 20px;
@@ -55,8 +55,14 @@ p{
 }
 
 .section-title > h1{
-	text-align: center;
-    font-size: 12vw;
+  font-size: 10vw;
+  font-weight: 900;
+  color: #242424;
+}
+
+.section-title h2{
+  font-weight: 300;
+  text-align: justify;
 }
 
 .red{
@@ -76,17 +82,22 @@ p{
 }
 
 .bg-red{
-	bakground-color: #eb3b5a;
+	background-color: #eb3b5a;
 }
 .bg-blue{
-	bakground-color: #45aaf2;
+	background-color: #45aaf2;
 }
 .bg-green{
-	bakground-color: #20bf6b;
+	background-color: #20bf6b;
 }
 .bg-yellow{
-	bakground-color: #fed330;
+	background-color: #fed330;
 }
 .bg-dark{
-	bakground-color: #242424;
+	background-color: #242424;
+}
+
+.gap{
+  width: 100vw;
+  height: 10vh;
 }
