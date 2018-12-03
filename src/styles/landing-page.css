@@ -1,5 +1,5 @@
 .landing-page-container{
-	background-image: url("../../public/image/landing-bg.png");
+	background-image: url("../../public/image/landing-bg-2.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -33,7 +33,7 @@
     font-size: 5em;
     font-weight: 900;
     line-height: 1;
-}	
+}
 .landing-page-content-description{
     font-size: 1em;
     color: #242424;
