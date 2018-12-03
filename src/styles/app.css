@@ -10,11 +10,54 @@ html, body {
 	height: 100%;
 }
 
+
+h1{
+  font-size: 7vw;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 3.5vw;
+  font-weight: 400;
+}
+
+p{
+  font-size: 3vw;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
 #main-container{
 	display: flex;
-	height: 100%;
+	width: 100vw;
 	align-items: center;
-    flex-direction: column;
+  flex-direction: column;
+}
+
+.card{
+  margin-bottom: 50px;
+  width: 95vw;
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  overflow: hidden;
+}
+
+.button{
+  background-color: #45aaf2;
+  padding: 10px 30px;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.gap{
+  width: 100vw;
+  height: 30vh;
+  background-color: white;
 }
 
 .red{

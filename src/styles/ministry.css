@@ -1,0 +1,37 @@
+.ministry{
+  height: 60vh;
+  display: grid;
+  grid-template-rows: 60% auto;
+}
+
+.ministry-photo{
+  width: 100%;
+  height: 100%;
+  grid-area: 1/1/2/2;
+  /* border-radius: 20px 20px 0 0; */
+}
+
+#worship-ministry-photo{
+  background-color: #eb3b5a;
+}
+#hospi-ministry-photo{
+  background-color: #fed330;
+}
+#children-ministry-photo{
+  background-color: #20bf6b;
+}
+
+.ministry-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 5vw;
+  text-align: center;
+  grid-area:2/1/3/2;
+}
+
+.ministry-description *{
+  margin-top: 10px;
+}

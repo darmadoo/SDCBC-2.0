@@ -1,0 +1,64 @@
+.carecell{
+  height: 30vh;
+  display: grid;
+  grid-template-rows: 30% 40% auto;
+  box-sizing: border-box;
+  padding: 5vw;
+}
+
+.carecell-title-container{
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.carecell-logo{
+  width: 10vw;
+  height: 10vw;
+  margin-right: 5vw;
+}
+
+#zeal-logo{
+  background-image: url("../../public/image/zeal-temp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#cs-logo{
+  background-image: url("../../public/image/cs-temp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carecell-content-container{
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.carecell-footer-container{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+.cc-footer-left-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cc-footer-right-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cc-footer-right{
+  font-size: 20px;
+}

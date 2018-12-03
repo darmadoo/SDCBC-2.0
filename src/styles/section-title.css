@@ -1,0 +1,11 @@
+.section-title{
+  width: 100vw;
+  padding: 0 7.5vw;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+
+}
+
+.section-title *{
+  margin-bottom: 5px;
+}
