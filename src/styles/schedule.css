@@ -34,16 +34,11 @@
   font-weight: 300;
 }
 
-.gmaps{
+#map{
   grid-area: 2/1/3/2;
   width: 100%;
   height: 85vw;
   background-color: rgb(146, 230, 182);
   margin: 10px 0 10px 0;
   box-sizing: border-box;
-
-  background-image: url("../../public/image/map-temp.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }

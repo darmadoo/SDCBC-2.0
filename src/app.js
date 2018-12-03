@@ -23,3 +23,27 @@
 
 	});
 }());	
+
+function initMap() {
+	var myLatLng = {lat: 32.834942, lng: -117.127220};
+
+	var map = new google.maps.Map(document.getElementById('map'), {
+	  center: myLatLng,
+	  zoom: 13,
+	  disableDefaultUI: true
+	});
+
+	var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+
+  marker.setMap(map);
+}
+
+$("#main-container").ready(function(){
+	$("#loader-screen").fadeOut("fast", function(){
+			$("#main-container").removeClass('hidden');
+	});
+});
